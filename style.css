@@ -97,7 +97,7 @@ body {
     }
 
     .konten1 img {
-        margin-left: 827px;
+        margin-left: 50%;
         width: 449px;
         height: 603px;
     }
@@ -116,7 +116,7 @@ body {
 
     .head{
         position: absolute;
-        width: 593px;
+        width: 30%;
         height: 274px;
         display: inline-block;
     }
@@ -624,6 +624,11 @@ body {
 }
 
 @media screen and (max-width: 1688px) {
+
+    .head {
+        width: 30%;
+    }
+
     .malem {
         margin-left: 10%;
     }
@@ -650,6 +655,10 @@ body {
         padding-left: 30px;
       }
 
+      .head {
+        width: 30%;
+      }
+
       .menu {
         display: inline-block;
         text-decoration: none;
@@ -668,6 +677,10 @@ body {
 
       .konten1 {
         margin-left: 130px;
+      }
+
+      .konten1 img {
+        margin-left: 50%;
       }
 
       .konten2 {
@@ -715,11 +728,15 @@ body {
         margin-left: 30%;
     }
 
+    .head {
+        width: 30%;
+    }
+
     .konten1 {
         margin-left: 35px;
       }
       .konten1 img {
-        margin-left: 770px;
+        margin-left: 50%;
       }
 
       #hiasan2 {
@@ -784,7 +801,7 @@ body {
         margin-left: 35px;
       }
       .konten1 img {
-        margin-left: 495px;
+        margin-left: 50%;
       }
 
       #hiasan2 {
