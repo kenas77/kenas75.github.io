@@ -11,7 +11,10 @@ body {
 
 
 @media screen and (max-width: 1920px) {
-    
+
+    body {
+        overflow-x: hidden;
+    }
 
     .navbar {
         background-color: black;
@@ -620,7 +623,25 @@ body {
 
 }
 
+@media screen and (max-width: 1688px) {
+    .malem {
+        margin-left: 10%;
+    }
+
+    .konten1 {
+        margin-left: 10%;
+    }
+    
+}
+
+
 @media screen and (max-width: 1536px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+
     .logo {
         display: inline-block;
         color: white;
@@ -681,6 +702,11 @@ body {
 }
 
 @media screen and (max-width: 1300px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
     .menu {
         padding-left: 170px;
         padding-right: 0px;
@@ -737,6 +763,11 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
     .menu {
         padding-left: 45px;
         padding-right: 0px;
