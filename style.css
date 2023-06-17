@@ -631,7 +631,6 @@ body {
     .konten1 {
         margin-left: 10%;
     }
-    
 }
 
 
@@ -654,7 +653,7 @@ body {
       .menu {
         display: inline-block;
         text-decoration: none;
-        padding-left: 315px;
+        padding-left: 15%;
         text-align: center;
       }
 
@@ -662,7 +661,7 @@ body {
         width: 40px;
         height: 40px;
         display: inline-block;
-        margin-left: 29px;
+        margin-left: 5%;
         top: 11px;
         position: absolute;
       }
@@ -708,12 +707,12 @@ body {
     }
 
     .menu {
-        padding-left: 170px;
+        padding-left: 15%;
         padding-right: 0px;
     }
 
     .malem {
-        margin-left: 310px;
+        margin-left: 30%;
     }
 
     .konten1 {
@@ -769,12 +768,12 @@ body {
     }
 
     .menu {
-        padding-left: 45px;
+        padding-left: 5%;
         padding-right: 0px;
     }
 
     .malem {
-        margin-left: 180px;
+        margin-left: 26%;
     }
 
     .head {
