@@ -40,7 +40,6 @@ body {
         text-decoration: none;
         padding-left: 23%;
         text-align: center;
-        padding-right: 375px;
     }
 
     .menu a {
@@ -84,11 +83,9 @@ body {
     .malem {
         width: 40px;
         height: 40px;
-        display: inline-block;
-        margin-left: 15%;
-        top: 11px;
-        position: absolute;
         float: right;
+        margin-right: 4vh;
+        margin-top: 1vh;
     }
 
     .konten1{
@@ -458,12 +455,13 @@ body {
 
     .konten4 {
         margin-top: 82px;
-        padding-left: 281px;
         padding-right: 281px;
         background-color: black;
         height: 450px;
         color: white;
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .konten4 h3{
@@ -495,8 +493,9 @@ body {
     .konten4 form {
         display: inline-block;
         position: relative;
-        left: 133px;
+        margin-left: 133px;
         top: -50px;
+        margin-top: 20vh;
     }
 
     .konten4 h5 {
@@ -601,7 +600,6 @@ body {
         border-radius: 50px;
         border: none;
         float: right;
-        margin-right: 176%;
     }
 
     
@@ -629,11 +627,6 @@ body {
 
     .head {
         width: 30%;
-    }
-
-    .malem {
-        margin-left: 10%;
-        float: right;
     }
 
     .konten1 {
@@ -669,7 +662,7 @@ body {
         font-weight: 700;
         padding-left: 30px;
         top: 1vh;
-        position: relative;
+        position: relative;  
       }
 
       .head {
@@ -686,10 +679,6 @@ body {
       .malem {
         width: 40px;
         height: 40px;
-        display: inline-block;
-        margin-left: 5%;
-        top: 11px;
-        position: absolute;
         float: right;
       }
 
@@ -721,13 +710,13 @@ body {
         margin-left: 40px;
       }
 
-      .konten4 {
-        padding-left: 130px;
-      }
-
       .konten4 form {
         margin-left: 80px;
         left: 0px;
+      }
+
+      .konten4 {
+        padding-left: 0px;
       }
 }
 
@@ -743,7 +732,6 @@ body {
     }
 
     .malem {
-        margin-left: 30%;
         float: right;
     }
 
@@ -815,7 +803,6 @@ body {
     }
 
     .malem {
-        margin-left: 26%;
         float: right;
     }
 
@@ -882,7 +869,7 @@ body {
       .konten4 form {
         margin-left: 37px;
         left: 0px;
-        top: -251px;
+        top: 0vh;
       }
 
       .teks4 {
