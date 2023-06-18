@@ -159,6 +159,7 @@ body {
     .head button:hover {
         transform: translateY(2px) scale(0.98);
         box-shadow: 0 2px 5px rgba(53, 53, 53, 0.2);
+        background-color: rgb(44, 44, 44);
       }
 
     .konten2 {
