@@ -538,16 +538,13 @@ body {
         width: 82px;
         height: 82px;
         float: right;
-        position: fixed;
         background-color: #FEB22D;
         color: black;
-        display: block;
-        top: 84%;
-        left: 90%;
         background-image: url('ASET/Group\ 69.png');
         border-radius: 100px;
         border-style: none;
         cursor: pointer;
+        margin-top: 126%;
     }
 
     #btn1:hover {
@@ -560,8 +557,6 @@ body {
         float: right;
         position: fixed;
         background-color: #FEB22D;
-        top: 73%;
-        left: 90%;
         background-image: url('ASET/Group\ 84.png');
         border-radius: 100px;
         border-style: none;
@@ -585,6 +580,14 @@ body {
         font-weight: 275;
         font-size: 14px;
         line-height: 83.5%;
+    }
+
+    .konten5 {
+        float: right;
+        display: block;
+        position: fixed;
+        left: 90%;
+        top: 70vh;
     }
 
     .konten6 p {
