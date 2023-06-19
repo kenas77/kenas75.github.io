@@ -542,7 +542,7 @@ body {
         background-color: #FEB22D;
         color: black;
         display: block;
-        top: 800px;
+        top: 84%;
         left: 90%;
         background-image: url('ASET/Group\ 69.png');
         border-radius: 100px;
@@ -560,8 +560,8 @@ body {
         float: right;
         position: fixed;
         background-color: #FEB22D;
-        top: 73vh;
-        left: 139vh;
+        top: 73%;
+        left: 90%;
         background-image: url('ASET/Group\ 84.png');
         border-radius: 100px;
         border-style: none;
