@@ -99,17 +99,19 @@ body {
         margin-left: 50%;
         width: 449px;
         height: 603px;
+        z-index: 2;
+        position: relative;
     }
 
     #hiasan1 {
         position: absolute;
-        left: -109vh;
+        left: -53vw;
         top: 4vh;
     }
 
     #hiasan2 {
         position: absolute;
-        left: 67vh;
+        left: 29vw;
         top: 19vh;
     }
 
@@ -118,6 +120,7 @@ body {
         width: 30%;
         height: 274px;
         display: inline-block;
+        z-index: 2;
     }
 
     .head h2{
@@ -242,6 +245,18 @@ body {
     }
 
     .konten3 h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 83.5%;
+        display: flex;
+        margin-top: 65px;
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+
+    .konten3 h5 {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
@@ -588,6 +603,7 @@ body {
         position: fixed;
         left: 90%;
         top: 70%;
+        z-index: 9999;
     }
 
     .konten6 p {
@@ -624,6 +640,85 @@ body {
         background-color: white;
         color: black;
     }
+    
+    #testimonials {
+        padding: 40px;
+        text-align: center;
+      }
+      
+      #testimonials h2 {
+        margin-bottom: 20px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 83.5%;
+      }
+      
+      .testimonial-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      .testimonial-item {
+        width: 300px;
+        padding: 20px;
+        margin: 20px;
+        background-color: white;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      
+      .testimonial-item img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+      }
+      
+      .testimonial-item h6 {
+        font-size: 14px;
+        margin-bottom: 10px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 94%;
+        line-height: 18px;
+      }
+      
+      .testimonial-item h4 {
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 132%;
+        line-height: 83.5%;
+      }
+      
+      #prevButton,
+      #nextButton {
+        background-color: orange;
+        color: white;
+        padding: 10px;
+        border-radius: 50%;
+        margin-top: 10px;
+        cursor: pointer;
+        border: none;
+        font-size: 18px;
+        outline: none;
+        width: 40px;
+        height: 40px;
+        transition: background-color 0.3s ease;
+}
+
+        #prevButton:hover,
+        #nextButton:hover {
+        background-color: darkorange;
+        }
+
+        
+            
 
 }
 
@@ -639,7 +734,6 @@ body {
 
     #hiasan1 {
         position: absolute;
-        left: -109vh;
         top: 4vh;
     }
 }
@@ -653,7 +747,6 @@ body {
 
     #hiasan1 {
         position: absolute;
-        left: -109vh;
         top: 4vh;
     }
 
@@ -750,13 +843,9 @@ body {
         margin-left: 50%;
       }
 
-      #hiasan2 {
-        left: 300px;
-      }
 
       #hiasan1 {
         position: absolute;
-        left: -94vh;
         top: 4vh;
     }
 
@@ -821,12 +910,6 @@ body {
         margin-left: 50%;
       }
 
-      #hiasan2 {
-        left: 320px;
-      }
-      #hiasan1 {
-        left: -657px;
-      }
 
 
       #tr2 {
