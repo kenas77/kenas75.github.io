@@ -32,6 +32,8 @@ window.addEventListener('scroll', function() {
             var hiasan2 = document.getElementById('hiasan2');
             hiasan2.style.transform = 'translateX(' + scrollPosition * 1 + 'px)';
 });
+
+
 const testimonialContainer = document.querySelector(".testimonial-container");
 const testimonialItems = document.querySelectorAll(".testimonial-item");
 const prevButton = document.getElementById("prevButton");
